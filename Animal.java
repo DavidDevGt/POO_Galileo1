@@ -1,3 +1,7 @@
+/**
+ * Esta clase representa un animal, paciente de la veterinaria.
+ */
+
 public class Animal {
     private String nombre;
     private String especie;

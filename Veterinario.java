@@ -1,3 +1,7 @@
+/**
+ * Esta es un veterinario que puede curar animales en la veterinaria.
+ */
+
 public class Veterinario {
     private String nombre;
     private String id;
