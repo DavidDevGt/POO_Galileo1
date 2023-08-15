@@ -13,6 +13,17 @@ public class Veterinario {
         if (this.paciente == null) {
             this.paciente = animal;
             System.out.println("El paciente " + animal.getNombre() + " ha sido asignado a " + nombre);
+        } else {
+            System.out.println(nombre + " ya tiene un paciente asignado.");
+        }
+    }
+
+    public void tratarPaciente() {
+        if (this.paciente != null) {
+            System.out.println(nombre + " ha tratado al paciente " + paciente.getNombre());
+            this.paciente = null;
+        } else {
+            System.out.println(nombre + " no tiene pacientes asignados en este momento.");
         }
     }
 }
