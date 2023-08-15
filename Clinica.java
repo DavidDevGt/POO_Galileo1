@@ -7,7 +7,7 @@ public class Clinica {
         Animal gato2 = new Animal("Misifus", "Gato");
 
         // Creando veterinarios
-        Veterinario doc1 = new Veterinario("Dr. Fernando Muñoz", "101");
+        Veterinario doc1 = new Veterinario("Dr. Fernando Monzon", "101");
         Veterinario doc2 = new Veterinario("Dra. Isabel Guerra", "022");
 
         // Asignando y tratando pacientes
